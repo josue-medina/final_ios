@@ -13,6 +13,7 @@
 		60AE97C7283AF76B0057E329 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60AE97C5283AF76B0057E329 /* Main.storyboard */; };
 		60AE97C9283AF76E0057E329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60AE97C8283AF76E0057E329 /* Assets.xcassets */; };
 		60AE97CC283AF76E0057E329 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60AE97CA283AF76E0057E329 /* LaunchScreen.storyboard */; };
+		CA26B6F4284B2BD7003B4CF2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA26B6F3284B2BD7003B4CF2 /* HomeViewController.swift */; };
 		CAFC1DF8284A61E5009FB89F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CAFC1DF7284A61E5009FB89F /* GoogleService-Info.plist */; };
 		CAFC1DFA284A66E0009FB89F /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFC1DF9284A66E0009FB89F /* RegistroViewController.swift */; };
 		DC94E84C12BFB3CF2294C578 /* Pods_MenuFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19880B45F9D04722CBE1242 /* Pods_MenuFirebase.framework */; };
@@ -28,6 +29,7 @@
 		60AE97C8283AF76E0057E329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60AE97CB283AF76E0057E329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60AE97CD283AF76E0057E329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA26B6F3284B2BD7003B4CF2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CAFC1DF7284A61E5009FB89F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CAFC1DF9284A66E0009FB89F /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
 		D19880B45F9D04722CBE1242 /* Pods_MenuFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MenuFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +87,7 @@
 				CAFC1DF7284A61E5009FB89F /* GoogleService-Info.plist */,
 				60AE97CD283AF76E0057E329 /* Info.plist */,
 				CAFC1DF9284A66E0009FB89F /* RegistroViewController.swift */,
+				CA26B6F3284B2BD7003B4CF2 /* HomeViewController.swift */,
 			);
 			path = MenuFirebase;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA26B6F4284B2BD7003B4CF2 /* HomeViewController.swift in Sources */,
 				60AE97C4283AF76B0057E329 /* ViewController.swift in Sources */,
 				CAFC1DFA284A66E0009FB89F /* RegistroViewController.swift in Sources */,
 				60AE97C0283AF76B0057E329 /* AppDelegate.swift in Sources */,
