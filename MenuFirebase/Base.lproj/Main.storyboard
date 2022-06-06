@@ -11,7 +11,7 @@
         <!--Iniciar Sesion-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MenuFirebase" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="CuartoViewController" customModule="MenuFirebase" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -242,6 +242,15 @@
                                     <segue destination="YnA-4c-a4I" kind="show" id="kCU-ov-aY0"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Kh-Vz-dcr">
+                                <rect key="frame" x="139" y="467" width="67" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <segue destination="son-QD-D9Q" kind="show" id="6fU-gG-PPE"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="amh-mE-Ujc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -259,6 +268,73 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nwF-GK-Tbq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3533.3333333333335" y="333.48214285714283"/>
+        </scene>
+        <!--Agenda deportiva-->
+        <scene sceneID="IUb-gn-LoE">
+            <objects>
+                <viewController id="son-QD-D9Q" customClass="CDViewController" customModule="MenuFirebase" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lhB-7L-8RW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="90d-Mc-5nR">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="celda" textLabel="fzG-bM-Xgp" detailTextLabel="Yy6-xb-hDs" imageView="t61-j9-D9I" style="IBUITableViewCellStyleSubtitle" id="LAn-DN-pqN">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LAn-DN-pqN" id="Lsr-lN-mIY">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fzG-bM-Xgp">
+                                                    <rect key="frame" x="79" y="6" width="25" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Yy6-xb-hDs">
+                                                    <rect key="frame" x="79" y="22.5" width="40.5" height="13.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="images" id="t61-j9-D9I">
+                                                    <rect key="frame" x="20" y="0.0" width="44" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="z7O-ka-jwb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="z7O-ka-jwb" firstAttribute="trailing" secondItem="90d-Mc-5nR" secondAttribute="trailing" id="3O4-Gf-frc"/>
+                            <constraint firstItem="90d-Mc-5nR" firstAttribute="leading" secondItem="z7O-ka-jwb" secondAttribute="leading" id="4Ip-jb-gEX"/>
+                            <constraint firstItem="90d-Mc-5nR" firstAttribute="top" secondItem="z7O-ka-jwb" secondAttribute="top" id="bHC-iF-7CQ"/>
+                            <constraint firstItem="z7O-ka-jwb" firstAttribute="bottom" secondItem="90d-Mc-5nR" secondAttribute="bottom" id="mWu-Be-zc3"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Agenda deportiva" id="uFQ-y4-5cG">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="QkU-JT-agt">
+                            <connections>
+                                <action selector="agregarTarea:" destination="son-QD-D9Q" id="nhQ-Cx-wwZ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tablaTareas" destination="90d-Mc-5nR" id="NcQ-yg-T9R"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P9w-Q0-rdH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4583" y="332"/>
         </scene>
         <!--Contacto-->
         <scene sceneID="T4d-47-K1D">
@@ -393,7 +469,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o51-ri-8jq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4310" y="1086"/>
+            <point key="canvasLocation" x="4443" y="1158"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="2PL-GG-tVs">
@@ -442,6 +518,7 @@
         <segue reference="dxg-Xo-rnW"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="images" width="225" height="225"/>
         <image name="luke-chesser-3rWagdKBF7U-unsplash" width="1700" height="3500"/>
         <image name="map" catalog="system" width="128" height="110"/>
         <image name="news" width="1134" height="596"/>

@@ -1,5 +1,5 @@
 //
-//  ContactoViewController.swift
+//  CuartoViewController.swift
 //  MenuFirebase
 //
 //  Created by Josue Medina on 06/06/22.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ContactoViewController: CuartoViewController {
+class CuartoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

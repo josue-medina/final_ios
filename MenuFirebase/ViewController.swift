@@ -8,7 +8,7 @@
 import UIKit
 import CLTypingLabel
 import FirebaseAuth
-class ViewController: UIViewController {
+class CuartoViewController: UIViewController {
 
     @IBOutlet weak var mensajeBienvenidaLabel: CLTypingLabel!
     

@@ -18,6 +18,8 @@
 		CA1A4C2E284C9029004D71BF /* CeldaNoticiaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA1A4C2C284C9029004D71BF /* CeldaNoticiaTableViewCell.xib */; };
 		CA1A4C87284DD962004D71BF /* ContactoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1A4C86284DD962004D71BF /* ContactoViewController.swift */; };
 		CA1A4C8B284DDDB7004D71BF /* TercerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1A4C8A284DDDB7004D71BF /* TercerViewController.swift */; };
+		CA1A4C8E284DF34D004D71BF /* coredat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA1A4C8C284DF34C004D71BF /* coredat.xcdatamodeld */; };
+		CA1A4C94284E0B20004D71BF /* CDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1A4C93284E0B20004D71BF /* CDViewController.swift */; };
 		CA26B6F4284B2BD7003B4CF2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA26B6F3284B2BD7003B4CF2 /* HomeViewController.swift */; };
 		CAFC1DF8284A61E5009FB89F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CAFC1DF7284A61E5009FB89F /* GoogleService-Info.plist */; };
 		CAFC1DFA284A66E0009FB89F /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFC1DF9284A66E0009FB89F /* RegistroViewController.swift */; };
@@ -39,6 +41,8 @@
 		CA1A4C2C284C9029004D71BF /* CeldaNoticiaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CeldaNoticiaTableViewCell.xib; sourceTree = "<group>"; };
 		CA1A4C86284DD962004D71BF /* ContactoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactoViewController.swift; sourceTree = "<group>"; };
 		CA1A4C8A284DDDB7004D71BF /* TercerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TercerViewController.swift; sourceTree = "<group>"; };
+		CA1A4C8D284DF34C004D71BF /* coredat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = coredat.xcdatamodel; sourceTree = "<group>"; };
+		CA1A4C93284E0B20004D71BF /* CDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDViewController.swift; sourceTree = "<group>"; };
 		CA26B6F3284B2BD7003B4CF2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CAFC1DF7284A61E5009FB89F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CAFC1DF9284A66E0009FB89F /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +94,7 @@
 			children = (
 				60AE97BF283AF76B0057E329 /* AppDelegate.swift */,
 				60AE97C1283AF76B0057E329 /* SceneDelegate.swift */,
+				CA1A4C93284E0B20004D71BF /* CDViewController.swift */,
 				60AE97C3283AF76B0057E329 /* ViewController.swift */,
 				60AE97C5283AF76B0057E329 /* Main.storyboard */,
 				CA1A4C86284DD962004D71BF /* ContactoViewController.swift */,
@@ -103,6 +108,7 @@
 				CA26B6F3284B2BD7003B4CF2 /* HomeViewController.swift */,
 				CA1A4C2B284C9029004D71BF /* CeldaNoticiaTableViewCell.swift */,
 				CA1A4C2C284C9029004D71BF /* CeldaNoticiaTableViewCell.xib */,
+				CA1A4C8C284DF34C004D71BF /* coredat.xcdatamodeld */,
 			);
 			path = MenuFirebase;
 			sourceTree = "<group>";
@@ -238,9 +244,11 @@
 				60AE97C4283AF76B0057E329 /* ViewController.swift in Sources */,
 				CA1A4C28284C875C004D71BF /* SegundoViewController.swift in Sources */,
 				CAFC1DFA284A66E0009FB89F /* RegistroViewController.swift in Sources */,
+				CA1A4C8E284DF34D004D71BF /* coredat.xcdatamodeld in Sources */,
 				60AE97C0283AF76B0057E329 /* AppDelegate.swift in Sources */,
 				60AE97C2283AF76B0057E329 /* SceneDelegate.swift in Sources */,
 				CA1A4C2D284C9029004D71BF /* CeldaNoticiaTableViewCell.swift in Sources */,
+				CA1A4C94284E0B20004D71BF /* CDViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +470,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CA1A4C8C284DF34C004D71BF /* coredat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CA1A4C8D284DF34C004D71BF /* coredat.xcdatamodel */,
+			);
+			currentVersion = CA1A4C8D284DF34C004D71BF /* coredat.xcdatamodel */;
+			path = coredat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 60AE97B4283AF76B0057E329 /* Project object */;
 }
