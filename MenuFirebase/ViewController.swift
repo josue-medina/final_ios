@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  MenuFirebase
 //
-//  Created by marco rodriguez on 22/05/22.
+//  Created by Josue Medina on 22/05/22.
 //
 
 import UIKit
@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        mensajeBienvenidaLabel.text = "Bienvenidos al Instituto Tecnologico de Morelia 🏫 "
+        mensajeBienvenidaLabel.text = "La Liga App"
         
         mensajeBienvenidaLabel.charInterval = 0.03
         
@@ -38,7 +38,6 @@ class ViewController: UIViewController {
 
         }
     }
-
 
     @IBAction func loginButton(_ sender: UIButton) {
         if let email = coreUsuario.text, let password = contraseñaUsuario.text{

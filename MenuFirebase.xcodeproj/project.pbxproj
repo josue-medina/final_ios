@@ -16,6 +16,8 @@
 		CA1A4C28284C875C004D71BF /* SegundoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1A4C27284C875C004D71BF /* SegundoViewController.swift */; };
 		CA1A4C2D284C9029004D71BF /* CeldaNoticiaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1A4C2B284C9029004D71BF /* CeldaNoticiaTableViewCell.swift */; };
 		CA1A4C2E284C9029004D71BF /* CeldaNoticiaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA1A4C2C284C9029004D71BF /* CeldaNoticiaTableViewCell.xib */; };
+		CA1A4C87284DD962004D71BF /* ContactoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1A4C86284DD962004D71BF /* ContactoViewController.swift */; };
+		CA1A4C8B284DDDB7004D71BF /* TercerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1A4C8A284DDDB7004D71BF /* TercerViewController.swift */; };
 		CA26B6F4284B2BD7003B4CF2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA26B6F3284B2BD7003B4CF2 /* HomeViewController.swift */; };
 		CAFC1DF8284A61E5009FB89F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CAFC1DF7284A61E5009FB89F /* GoogleService-Info.plist */; };
 		CAFC1DFA284A66E0009FB89F /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFC1DF9284A66E0009FB89F /* RegistroViewController.swift */; };
@@ -35,6 +37,8 @@
 		CA1A4C27284C875C004D71BF /* SegundoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegundoViewController.swift; sourceTree = "<group>"; };
 		CA1A4C2B284C9029004D71BF /* CeldaNoticiaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaNoticiaTableViewCell.swift; sourceTree = "<group>"; };
 		CA1A4C2C284C9029004D71BF /* CeldaNoticiaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CeldaNoticiaTableViewCell.xib; sourceTree = "<group>"; };
+		CA1A4C86284DD962004D71BF /* ContactoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactoViewController.swift; sourceTree = "<group>"; };
+		CA1A4C8A284DDDB7004D71BF /* TercerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TercerViewController.swift; sourceTree = "<group>"; };
 		CA26B6F3284B2BD7003B4CF2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CAFC1DF7284A61E5009FB89F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CAFC1DF9284A66E0009FB89F /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
@@ -88,7 +92,9 @@
 				60AE97C1283AF76B0057E329 /* SceneDelegate.swift */,
 				60AE97C3283AF76B0057E329 /* ViewController.swift */,
 				60AE97C5283AF76B0057E329 /* Main.storyboard */,
+				CA1A4C86284DD962004D71BF /* ContactoViewController.swift */,
 				CA1A4C27284C875C004D71BF /* SegundoViewController.swift */,
+				CA1A4C8A284DDDB7004D71BF /* TercerViewController.swift */,
 				60AE97C8283AF76E0057E329 /* Assets.xcassets */,
 				60AE97CA283AF76E0057E329 /* LaunchScreen.storyboard */,
 				CAFC1DF7284A61E5009FB89F /* GoogleService-Info.plist */,
@@ -227,6 +233,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA26B6F4284B2BD7003B4CF2 /* HomeViewController.swift in Sources */,
+				CA1A4C87284DD962004D71BF /* ContactoViewController.swift in Sources */,
+				CA1A4C8B284DDDB7004D71BF /* TercerViewController.swift in Sources */,
 				60AE97C4283AF76B0057E329 /* ViewController.swift in Sources */,
 				CA1A4C28284C875C004D71BF /* SegundoViewController.swift in Sources */,
 				CAFC1DFA284A66E0009FB89F /* RegistroViewController.swift in Sources */,

@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  MenuFirebase
 //
-//  Created by marco rodriguez on 22/05/22.
+//  Created by Josue Medina on 22/05/22.
 //
 
 import UIKit

@@ -18,7 +18,7 @@ struct Noticia: Codable{
 }
 
 
-class SegundoViewController: UIViewController {
+class TerceroViewController: UIViewController {
    
     var articuloNoticias : [Noticia] = []
     
@@ -51,7 +51,7 @@ class SegundoViewController: UIViewController {
     }
 }
 
-extension SegundoViewController: UITableViewDelegate, UITableViewDataSource{
+extension TerceroViewController: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return articuloNoticias.count
     }
