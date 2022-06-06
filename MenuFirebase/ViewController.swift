@@ -18,9 +18,9 @@ class CuartoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        mensajeBienvenidaLabel.text = "La Liga App"
+        mensajeBienvenidaLabel.text = "Soccer App"
         
-        mensajeBienvenidaLabel.charInterval = 0.03
+        mensajeBienvenidaLabel.charInterval = 1.5
         
         mensajeBienvenidaLabel.onTypingAnimationFinished = {
             self.mensajeBienvenidaLabel.textColor = .black

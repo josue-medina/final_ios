@@ -24,12 +24,14 @@ class CDViewController: UIViewController {
     @IBAction func agregarTarea(_ sender: UIBarButtonItem) {
         //campo para el titulo
         var titulo = UITextField()
-        let alerta = UIAlertController(title: "Agregar", message: "Tarea", preferredStyle: .alert)
+        var cuerpo = UITextField()
+        let alerta = UIAlertController(title: "Agregar", message: "Evento", preferredStyle: .alert)
         let accionAceptar = UIAlertAction(title: "Aceptar", style: .default) { (_) in
             //crear una nueva tarea
             
             let nuevaTarea = Tarea(context: self.contexto)
             nuevaTarea.nombre = titulo.text
+            nuevaTarea.descripcion = cuerpo.text
             nuevaTarea.realizada = false
             
             
@@ -45,6 +47,9 @@ class CDViewController: UIViewController {
         alerta.addTextField { (textFieldAlerta) in
             textFieldAlerta.placeholder="Escribe el titulo"
             titulo = textFieldAlerta
+            
+            textFieldAlerta.placeholder="Escrube mensaje"
+            cuerpo = textFieldAlerta
         }
         alerta.addAction(accionAceptar)
         present(alerta, animated: true)
@@ -82,11 +87,14 @@ extension CDViewController: UITableViewDelegate, UITableViewDataSource{
         let tarea = listaTareas[indexPath.row]
         
         //operador ternario
+        /*let formatter1 = DateFormatter()
+        formatter1.dateStyle = .full
+                celda.detailTextLabel?.text = formatter1.string(from: listaTareas[indexPath.row].fecha!)*/
         
         celda.textLabel?.text = tarea.nombre
         celda.textLabel?.textColor = tarea.realizada ? .black : .blue
         
-        celda.detailTextLabel?.text = tarea.realizada ? "completada" : "Por completar ..."
+        celda.detailTextLabel?.text = tarea.realizada ? "Programado" : "Me Interesa"
         
         celda.accessoryType = tarea.realizada ? .checkmark : .none
         return celda
